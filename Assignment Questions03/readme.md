@@ -49,3 +49,10 @@ Ans: The orientation CSS media feature can be used to test the orientation of th
 
 ![1 (2)](https://github.com/shon-developer/PPT-AssignmentSubmission/assets/119747143/8ba3fade-5e47-4145-9fd3-8fab8c963bfa)
 ![2 (2)](https://github.com/shon-developer/PPT-AssignmentSubmission/assets/119747143/81286fa3-78ca-4143-a79e-e32d1800dad7)
+
+# Q.10 Standard Dashboard
+
+[source code]()
+
+![Screenshot (49)](https://github.com/shon-developer/PPT-AssignmentSubmission/assets/119747143/2ea2860e-e629-4cef-b0ba-7a131cb13622)
+![Screenshot (50)](https://github.com/shon-developer/PPT-AssignmentSubmission/assets/119747143/73d87ba1-a721-4c3a-b870-71a3306818c6)

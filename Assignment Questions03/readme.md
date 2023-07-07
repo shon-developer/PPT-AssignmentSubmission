@@ -30,7 +30,7 @@ Ans: The orientation CSS media feature can be used to test the orientation of th
 
 # Q.7 The image gallery using grid layout - fully responsive
 
-[source code]()
+[source code](https://github.com/shon-developer/PPT-AssignmentSubmission/tree/shon/Assignment%20Questions03/07image-gallery)
 
 ![1](https://github.com/shon-developer/React-Meal-App/assets/119747143/73573c41-0a96-4f0f-b473-8b8ef4b80c23)
 ![2](https://github.com/shon-developer/React-Meal-App/assets/119747143/4ee4741e-9177-4c0f-add8-d6d7634f2077)

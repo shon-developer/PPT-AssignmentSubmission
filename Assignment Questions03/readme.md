@@ -25,3 +25,5 @@ Ans: The orientation CSS media feature can be used to test the orientation of th
 ![Screenshot (40)](https://github.com/shon-developer/React-Meal-App/assets/119747143/a0505d68-59ad-437d-b211-150e90a6fa80)
 
 💡
+
+# Q.7 The image gallery using grid layout - fully responsive

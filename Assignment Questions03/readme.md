@@ -45,7 +45,7 @@ Ans: The orientation CSS media feature can be used to test the orientation of th
 
 # Q.9 Footer - fully responsive
 
-[source code]()
+[source code](https://github.com/shon-developer/PPT-AssignmentSubmission/tree/shon/Assignment%20Questions03/09responsiveFooter)
 
 ![1 (2)](https://github.com/shon-developer/PPT-AssignmentSubmission/assets/119747143/8ba3fade-5e47-4145-9fd3-8fab8c963bfa)
 ![2 (2)](https://github.com/shon-developer/PPT-AssignmentSubmission/assets/119747143/81286fa3-78ca-4143-a79e-e32d1800dad7)

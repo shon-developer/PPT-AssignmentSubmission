@@ -42,3 +42,10 @@ Ans: The orientation CSS media feature can be used to test the orientation of th
 
 ![1](https://github.com/shon-developer/React-Meal-App/assets/119747143/d2d1acbd-a5f7-4e11-b586-a1a5ebe64693)
 ![2](https://github.com/shon-developer/React-Meal-App/assets/119747143/60da1836-bf5d-4d35-b9eb-556dc17a6d75)
+
+# Q.9 Footer - fully responsive
+
+[source code]()
+
+![1 (2)](https://github.com/shon-developer/PPT-AssignmentSubmission/assets/119747143/8ba3fade-5e47-4145-9fd3-8fab8c963bfa)
+![2 (2)](https://github.com/shon-developer/PPT-AssignmentSubmission/assets/119747143/81286fa3-78ca-4143-a79e-e32d1800dad7)

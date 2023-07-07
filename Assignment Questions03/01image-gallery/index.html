@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "375px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "640px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "768px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1024px",
+            // => @media (min-width: 1280px) { ... }
+
+            "2xl": "1280px",
+            // => @media (min-width: 1536px) { ... }
+          },
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Image Gallery using Grid Layout</title>
+  </head>
+  <body>
+    <div class="w-full h-full py-10">
+      <h1 class="text-center text-3xl">Random Images</h1>
+      <div class="w-full h-full text-center py-14 flex justify-center">
+        <div
+          class="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4"
+        >
+          <img
+            class="w-64 h-64"
+            src="https://images.pexels.com/photos/459762/pexels-photo-459762.jpeg?auto=compress&cs=tinysrgb&w=400"
+            alt=""
+          />
+          <img
+            class="w-64 h-64"
+            src="https://images.pexels.com/photos/14541069/pexels-photo-14541069.jpeg?auto=compress&cs=tinysrgb&w=400"
+            alt=""
+          />
+          <img
+            class="w-64 h-64"
+            src="https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHZpZGVvJTIwZ2FtZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt=""
+          />
+          <img
+            class="w-64 h-64"
+            src="https://media.istockphoto.com/id/1405987908/photo/metaverse-cyberpunk-style-city-with-robots-walking-on-street-neon-lighting-on-building.webp?b=1&s=170667a&w=0&k=20&c=7cPJuFZQ1IDJo7TPiOCny4rWAmEBpTOsEfXlaCT7XEo="
+            alt=""
+          />
+          <img
+            class="w-64 h-64"
+            src="https://media.istockphoto.com/id/1390792827/photo/advanced-technology-on-cpu-processor.webp?b=1&s=170667a&w=0&k=20&c=LaVbBcdar4EyqHmEKqvmsR-NAj0nMdBJBAZQUKg3kV4="
+            alt=""
+          />
+          <img
+            class="w-64 h-64"
+            src="https://media.istockphoto.com/id/1204248067/photo/futuristic-gaming-background-or-product-showcase.jpg?s=612x612&w=0&k=20&c=UE0bkNLDX5_xApR-gPGuitRn8pygkg4riz-9u1BwuZs="
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

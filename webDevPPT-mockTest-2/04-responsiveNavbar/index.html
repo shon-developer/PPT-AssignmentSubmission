@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "375px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "640px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "768px",
+            // => @media (min-width: 1024px) { ... }
+
+            xl: "1024px",
+            // => @media (min-width: 1280px) { ... }
+
+            "2xl": "1280px",
+            // => @media (min-width: 1536px) { ... }
+          },
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Document</title>
+  </head>
+  <body class="w-full h-full">
+    <div class="max-w-7xl mx-auto h-full px-4">
+      <nav class="w-full h-20 flex justify-between items-center">
+        <h1
+          class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500"
+        >
+          LOGO
+        </h1>
+        <div class="flex justify-center items-center gap-4 top-24">
+          <ul
+            class="lg:static absolute flex flex-col lg:flex-row gap-6 text-lg font-semibold top-24 left-[-200px]"
+          >
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact</li>
+            <li>Career</li>
+            <li>Login</li>
+            <li
+              id="button"
+              class="bg-blue-500 text-white px-6 py-1 rounded-md hover-violet-700 active:bg-violet-800 cursor-pointer"
+            >
+              SignUp
+            </li>
+          </ul>
+        </div>
+        <i id="menu" class="fa fa-bars" aria-hidden="true"></i>
+      </nav>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
